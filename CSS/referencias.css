@@ -1,0 +1,51 @@
+.tabela
+{
+  background-color: #f1f5ef;
+
+  margin: 20px;
+  margin-bottom: 0;
+  padding: 0;
+
+  border: 6px solid;
+
+  font-family: 'Press Start 2P', cursive;
+
+  border-collapse: collapse;
+}
+
+.cabecalho-tabela
+{
+  background: linear-gradient(0deg, rgb(105, 187, 64), rgb(105, 187, 64) 2%, #f1f5ef);
+}
+
+.linha-topo th
+{
+  padding: 10px;
+  border: 2px solid;
+  border-bottom: 3px solid;
+}
+
+.tabela td
+{
+  padding: 10px;
+  border: 2px solid #3b3b3b;
+}
+
+.corpo-tabela a
+{
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.corpo-tabela :nth-child(odd) td
+{
+  background-color: #C0F4A6;
+}
+
+.corpo-tabela tr:hover td
+{
+  background-color: blue;
+  color: #f1f5ef;
+  cursor: pointer;
+}
