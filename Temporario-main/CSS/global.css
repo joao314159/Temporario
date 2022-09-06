@@ -1,0 +1,136 @@
+body
+{
+    margin: 0;
+
+    /* Adiciona a borda vermelha nas páginas */
+    border-left: 81px solid #F04E4E;
+    border-right: 81px solid #F04E4E;
+
+    background-image: url("../IMG/sunset-1985086.jpg");
+    background-repeat: repeat;
+}
+
+.titulo
+{
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+    color: #1A1A61;
+    background: linear-gradient(#A36270, #A56274);
+    text-shadow: 3px 3px 2px #2B2BA1;
+    font-family: 'Archivo Black', sans-serif;
+    padding: 14px;
+}
+
+.subtitulo
+{
+    margin: 0px;
+    font-size: 30px;
+    text-align: center;
+    background: linear-gradient(#A36270, blue);
+    color: black;
+    text-shadow: 3px 3px 2px #826DA3;
+    font-family: 'Lobster Two', cursive;
+    padding: 16px;
+}
+
+.lista-nav
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.item-nav
+{
+    list-style-type: none;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0px;
+    height: 100%;
+    width: calc(100% / 2);
+    border: 2px 2px blue;
+}
+
+.item-nav a
+{
+    margin: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    /* Padding adicionado aqui para que toda
+    a região de .item-nav seja clicável */
+    padding-top: 3px;
+    padding-bottom: 1px;
+
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.botao1
+{
+    text-align: end;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0), #9A26A3);
+}
+
+.botao2
+{
+    text-align: left;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0), #9A59A9);
+}
+
+.botao1:hover
+{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0), #74177a);
+}
+
+.botao2:hover
+{
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0), #792e8a);
+}
+
+.rodape
+{
+    margin: auto auto;
+    margin-top: 10%;
+    padding-bottom: 10px;
+    width: 40%;
+    height: 2.5%;
+    background: radial-gradient(#631869, #63186945, rgba(0, 0, 0, 0));
+}
+
+.copyright
+{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+
+    text-align: center;
+    margin: 0;
+
+    padding-top: 1.25%;
+}
+
+/* .cores1{
+
+  background-color:#631869;
+
+}
+
+.cores2{
+
+  background-color:#9A26A3;
+
+}
+
+.cores3{
+
+  background-color:#9A59A9;
+} */

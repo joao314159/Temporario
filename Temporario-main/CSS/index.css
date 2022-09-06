@@ -1,0 +1,28 @@
+.caixa
+{
+  padding: 10px;
+  margin: 10% 10%;
+  margin-top: 25px;
+  margin-bottom: 0;
+  border: 3px solid black;
+  background: linear-gradient(#f1f5ef, #CED9AB);
+
+  text-align: left;
+  font-size: 25px;
+  line-height: 39px;
+
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.texto-caixa
+{
+  margin: 0;
+}
+
+.imagem-caixa
+{
+  padding-top: 6%;
+  padding-left: 25%;
+
+  max-width: 75%;
+}

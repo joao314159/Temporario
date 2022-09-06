@@ -1,0 +1,153 @@
+.caixa
+{
+
+
+  padding-bottom: 10px;
+  margin: 5% 5%;
+  margin-top: 25px;
+  margin-bottom: 0;
+  border: 3px solid black;
+  background: linear-gradient(#f1f5ef, #CED9AB);
+
+  text-align: left;
+  font-size: 25px;
+  line-height: 39px;
+
+  font-family: 'Chakra Petch', sans-serif;
+
+}
+
+.imagem-caixa
+{
+  padding-top: 10%;
+  padding-left: 25%;
+
+  max-width: 75%;
+}
+
+
+.div1
+{
+  color: #2B2BA1;
+  font-size: 40px;
+  font-family: 'Lobster Two', cursive;
+  text-shadow: 0.5px 0.5px 2px black;
+  background-image: radial-gradient(white, #f1f5ef, #A36270);
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0px;
+  text-align: center;
+}
+
+.div2
+{
+  padding: 13px;
+  margin: 7% 7%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 4px solid black;
+  background-color: white;
+
+  text-align: left;
+  font-size: 25px;
+  line-height: 39px;
+
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.lista-navegadores
+{
+  display: flex;
+
+  width: 80%;
+
+  list-style: none;
+  padding: 0;
+
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.lista-navegadores li
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  flex: 20%;
+  padding: 5px;
+
+  width: 20%;
+}
+
+.versao-navegador
+{
+  font-size: 20px;
+}
+
+
+.tabela-atributos
+{	
+	margin: auto auto;
+	
+	border:1px solid;
+	background: linear-gradient(to right,white,rgb(211,211,211));
+	
+}
+
+.tabela-atributos th{
+	
+	background-color: rgb(220,220,220);
+	
+}
+
+.tabela-atributos td
+{
+	
+	border-right-width: 3px;
+	border-right-color: black;
+}
+
+.corpo-tabela-atributos :nth-child(odd) td
+{
+	background-color:#FFDEAD;
+}
+
+.corpo-tabela-atributos :nth-child(even) td
+{
+	
+	background-color:rgb(245,242,189);
+	
+}
+
+.canvas
+{
+	display: flex;
+}
+
+.metade-canvas
+{
+	flex: 50%;
+	
+	max-width: 50%;
+}
+
+.codigo
+{
+	margin-right: 2px;
+	
+	background-color: rgb(245,242,189);
+	
+	line-height: 200%;
+	
+	font-size: 50%;
+}
+
+.codigo-executado
+{
+	margin-left: 2px;
+	
+	background-color:white;
+}
